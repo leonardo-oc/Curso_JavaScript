@@ -8,5 +8,5 @@
 - [x] Operadores-part-02 Script-#05
 - [x] Introdução ao DOM  Script-#06
 - [x] Eventos DOM  Script-#07
-- [X] Condições  Script-#08
+- [X] Condições-Part-01  Script-#08
 
