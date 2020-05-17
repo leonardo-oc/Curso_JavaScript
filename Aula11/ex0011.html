@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Where you fromt</title>
+  <style>
+
+body{
+  margin: 0;
+  padding: 0;
+  color:#ffff;
+  font: bold 20pt arial;
+  background-color: rgb(69, 212, 169)
+
+
+
+}
+input{
+
+  
+  font: normal 20pt arial;
+  background-color: #ffff;
+  color: #6767db;
+  border-radius: 8px 8px 
+  
+   
+}
+
+#pesq{
+
+  text-align: center;
+  background-color: #993399 ;
+  height: 40px;
+  width: 700px;
+  border-radius: 8px 8px ;
+  
+  
+}
+
+#where{
+
+ margin-top: 30px;
+
+}
+
+
+  </style>
+</head>
+<body>
+  <div id="pesq">Qual seu País?:<input type="search" name="oringin" id="oringin">
+    <input type="button" value="Search" onclick= "pesquisar()" >
+  </div> 
+  <div  id="es">
+    
+  </div>
+  <div id="where"></div>
+<script>
+
+function pesquisar(){
+
+  var pais = document.querySelector("input#oringin")
+  ct = (pais.value)
+
+  es.innerHTML = `<p>Seu pais é ${ct}!</p>`
+  
+  if(ct.toUpperCase() == "BRASIL" ){
+    where.innerHTML = "<p>Você é BRASILEIRO!</p>"
+
+  }else{
+
+    where.innerHTML= "<p>Você é ESTRANGEIRO!</p>"
+}
+
+}
+
+
+</script>
+</body>
+</html>
