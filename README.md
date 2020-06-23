@@ -17,6 +17,7 @@ _________
 - [X] Condições-Part-01  Script-#08
 - [x] Conduções-Part-02 Script-#09 
 - [x] Repetições-Part-01 Script-#10
+- [x] Repetições-Part-02 Script-#11
 
 
 <h2 align="center"> 📷 learning:</h2>
