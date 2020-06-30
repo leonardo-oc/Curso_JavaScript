@@ -18,6 +18,7 @@ _________
 - [x] Conduções-Part-02 Script-#09 
 - [x] Repetições-Part-01 Script-#10
 - [x] Repetições-Part-02 Script-#11
+- [x] Variáveis Compostas Script #12
 
 
 <h2 align="center"> 📷 learning:</h2>
